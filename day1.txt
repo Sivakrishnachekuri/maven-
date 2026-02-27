@@ -11,34 +11,31 @@ maven Build tool
 --> Maven is a platform independent.
 --> Maven is not an executable software(.exe), It is in the zip/tar.gz (download and extract)
 --> if you want to download maven use this link below
-   https://maven.apache.org/download.cgi  --> download maven zip file
-
-
-
+      https://maven.apache.org/download.cgi  --> download maven zip file
 
 
 What are the build tools?
 -------------------------
-for java
+#for java
 ----
 Ant
 maven
 gradle
 
-for python
+#for python
 ------
 pybuilder
 
-for .net
+#for .net
 ----
 MS Build
 Nant
 
-for Ruby
+#for Ruby
 ----
 Rake
 
-for go
+#for go
 --
 go build tool
 
@@ -48,8 +45,8 @@ go build tool
 
    1. standalone applications [Jar]
 ------------------------
-    --> Java code
-    -> Jar contains (.class files)
+    --> it has only Java code (only code is availble ) 
+    ->  Jar contains (.class files)
 
    2. web applications [war]
 -------------------
@@ -62,13 +59,7 @@ go build tool
   --> JAVA code + web content (HTML/CSS3/JS)+ standalone and web modules
   --> ear contains( jar+war+HTML/CSS3/JS/Images+modules) 
   
-"" --> if you want to download maven use this link below
-   https://maven.apache.org/download.cgi  "
-
-
-
-
-Maven directory structure
+# Maven directory structure
 --------------------------
 bin ---> contains binary files [mvn, etc]
 
@@ -77,6 +68,7 @@ boot ---> contains jar files used at runtime
 conf ---> configuration files[settings.xml]
 
 lib ---> contains library files[jars]
+
 
 default xml file names for build scripts
 =========================================
